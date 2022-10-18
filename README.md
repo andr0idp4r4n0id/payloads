@@ -7,4 +7,4 @@ Allows to deduce code based on the web app's behaviour - If the injection point 
 If the quotation mark is:
 
 1. `"` - The output includes: `hello'.'@(${{[%<%>`
-2. `'` - The output includes: `hello@(\${{[%<%".">
+2. `'` - The output includes: `hello@(\${{[%<%".">`
