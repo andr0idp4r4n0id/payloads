@@ -8,7 +8,7 @@
 
 `hello"+"@(${{[%<%'**'><h1>asad2afdsd42sg</h1>` => `Sourrounding string:'` then output should be: `Generic Error Message (Fails to concat)` && `Surrounding string: "` then output should be `hello@(${{[%<%'**'> (Concats)`
 
-###  Urlencoded Versiojn
+###  Urlencoded Version
 
 `hello"%2b"%40(${{[%25<%25'**'><h1>asad2afdsd42sg</h1>`
 
