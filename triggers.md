@@ -2,11 +2,11 @@
 
 ## PHP String context for SSTi, evaluation, NoSQL, SQLi, XSS
 
-``hello"."@(${{[%<%'**'><h1>asad2afdsd42sg</h1>`` => `Surrounding string:'` then output should be: `hello@(\${{[%<%"."> (concats ')` && `Surrounding string:"` then output should be: `hello'.'@(${{[%<%> concats(")`
+``hello"."@(${{[%<%'**'><h1>asad2afdsd42sg</h1>`` => `Surrounding string:'` then output should be: `hello@(\${{[%<%"."> (concats ')` && `Surrounding string:"` then output should be: `hello'.'@(${{[%<%> concats(")`. It will also generate errors for the aforementioned contexts and attempt an html tag injection.
 
 ## Other languages string context for SSTi, evaluation, NoSQL, SQLi, XSS
 
-`hello"+"@(${{[%<%'**'><h1>asad2afdsd42sg</h1>` => `Sourrounding string:'` then output should be: `Generic Error Message (Fails to concat)` && `Surrounding string: "` then output should be `hello@(${{[%<%'**'> (Concats)`
+`hello"+"@(${{[%<%'**'><h1>asad2afdsd42sg</h1>` => `Sourrounding string:'` then output should be: `Generic Error Message (Fails to concat)` && `Surrounding string: "` then output should be `hello@(${{[%<%'**'> (Concats)`. It will also generate errors for the aforementioned contexts and attempt an html tag injection.
 
 ###  Urlencoded Version
 
